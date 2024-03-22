@@ -1,4 +1,4 @@
-# deletionSort
+# DeletionSort
 
 > "Why sort when you can just delete?" - A wise person, probably
 
