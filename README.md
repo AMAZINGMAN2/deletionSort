@@ -14,26 +14,34 @@ Deletion sort is a revolutionary algorithm that solves the age-old problem of so
 
 ## Installation
 ### Python
-You can run this in python by running the following script in the terminal:
+#### to use in Python run this in your local terminal:
 ```shell
 pip install deletionSort
 ```
+#### to use in JavaScript run this in your local terminal:
 
 ### Node / Javascript
 ```shell
-npx install deletionsort
+npm i deletionsort
 ```
 
 ## Usage
-
+### python
 ```python
-# Python
 original_data = [3, 1, 4, 1, 5, 9]
 print("Original data:", original_data)
 
 khalas(original_data)
 print("Sorted data:", original_data)  # Output: Sorted data: []
 ```
+### JavaScript
+```javascript
+const khalas = require('deletionsort')
+
+let array = [1,3,4,6,7,];
+console.log(khalas(array));
+```
+### SQL
 ```sql
 -- SQL
 DROP TABLE employees;  -- Goodbye, employee records!
