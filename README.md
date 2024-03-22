@@ -12,6 +12,18 @@ Deletion sort is a revolutionary algorithm that solves the age-old problem of so
 - Frees up disk space by deleting your precious data.
 - Provides a great excuse for losing all your work: "Oops, I ran the deletionsort algorithm!"
 
+## Installation
+
+You can run this in python by running the following script in the terminal:
+```shell
+pip install deletionSort
+```
+Then you can run it in your python script like this:
+```python
+array = [1,3,5,6,77,55,32,6,4,7,89,45,24,34,6]
+deletionSort(array)
+```
+
 ## Usage
 
 ```python
@@ -26,7 +38,7 @@ print("Sorted data:", original_data)  # Output: Sorted data: []
 -- SQL
 DROP TABLE employees;  -- Goodbye, employee records!
 ```
-Warning
+## Warning
 
 Use at your own risk! While the deletionsort algorithm is incredibly efficient, it may lead to undesirable side effects, such as:
 
@@ -34,6 +46,8 @@ Use at your own risk! While the deletionsort algorithm is incredibly efficient, 
     > Getting fired from your job
     > Angry customers or coworkers
     > Existential dread
+
+
 
 We recommend using this algorithm only for educational purposes or when you really, really don't like your data.
 Contributing
