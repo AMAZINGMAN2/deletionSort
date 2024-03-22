@@ -13,15 +13,15 @@ Deletion sort is a revolutionary algorithm that solves the age-old problem of so
 - Provides a great excuse for losing all your work: "Oops, I ran the deletionsort algorithm!"
 
 ## Installation
-
+### Python
 You can run this in python by running the following script in the terminal:
 ```shell
 pip install deletionSort
 ```
-Then you can run it in your python script like this:
-```python
-array = [1,3,5,6,77,55,32,6,4,7,89,45,24,34,6]
-deletionSort(array)
+
+### Node / Javascript
+```shell
+npx install deletionsort
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ deletionSort(array)
 original_data = [3, 1, 4, 1, 5, 9]
 print("Original data:", original_data)
 
-deletion_sort(original_data)
+khalas(original_data)
 print("Sorted data:", original_data)  # Output: Sorted data: []
 ```
 ```sql
