@@ -1,0 +1,25 @@
+{
+  "name": "deletionsort",
+  "version": "0.0.1",
+  "description": "DeletionSort Algorithim O(1)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMAZINGMAN2/deletionSort.git"
+  },
+  "keywords": [
+    "deletionSort",
+    "Algorithms",
+    "Sorting",
+    "Deletion"
+  ],
+  "author": "HashScripts (Hashim Almuqbel)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMAZINGMAN2/deletionSort/issues"
+  },
+  "homepage": "https://github.com/AMAZINGMAN2/deletionSort#readme"
+}
